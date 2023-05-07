@@ -1,0 +1,81 @@
+body {
+  font-family: 'SF Pro Display';
+}
+
+.expense, .date, .amount {
+  display: block;
+  text-align: center;
+  height:fit-content;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  text-align: left;
+  padding: 10px;
+  border: 1px;
+  border-style: solid;
+  border-bottom-width: 2px;
+  border-color: rgba(0, 0, 0, 0.28);
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.section-wrapper {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 5px;
+  border-top: 0;
+  border-bottom: 2px;
+  border-left: 0;
+  border-right: 0;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.28);
+
+}
+
+.section-wrapper div {
+  padding: 15px;
+  padding-top: 0;
+  padding-bottom: 5px;
+}
+
+.list, .input {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.expense {
+  width: 310px;
+}
+
+.date {
+  width: 210px;
+}
+
+.amount {
+  width: 110px;
+}
+
+#total {
+  text-align: center;
+  margin-left: 425px;
+  padding-top: 20px;
+}
+
+input {
+  font-family: 'SF Pro Display';
+  border: 0;
+  margin-top: 10px;
+  padding: 11px;
+}
+
